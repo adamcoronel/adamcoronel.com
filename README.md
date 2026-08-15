@@ -6,5 +6,3 @@ This website is heavily inspired by [perfectmotherfuckingwebsite.com](https://pe
 - A website should be leightweight
 - A website should be responsive
 - A website should be simple
-
-This website is hosted by [GitHub Pages](https://pages.github.com/) and uses [Jekyll](https://jekyllrb.com/) to generate the content.

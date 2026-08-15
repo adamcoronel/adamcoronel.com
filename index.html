@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="The personal website and professional portfolio of Adam Coronel."
+        />
+        <title>Adam Coronel</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <nav aria-label="Main navigation">
+            <div class="nav-inner">
+                <a
+                    href="#hero"
+                    class="nav-logo"
+                    aria-label="Adam Coronel - home"
+                    >AC</a
+                >
+                <ul class="nav-links" id="nav-links" role="list">
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a
+                    href="assets/Adam Coronel Resume 2026.pdf"
+                    download
+                    class="nav-cta"
+                    aria-label="Download resume PDF"
+                    >Download resume</a
+                >
+                <button
+                    class="nav-menu-btn"
+                    id="nav-menu-btn"
+                    aria-label="Toggle navigation menu"
+                    aria-expanded="false"
+                    aria-controls="nav-links"
+                >
+                    <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.8"
+                        stroke-linecap="round"
+                    >
+                        <line x1="3" y1="6" x2="21" y2="6" />
+                        <line x1="3" y1="12" x2="21" y2="12" />
+                        <line x1="3" y1="18" x2="21" y2="18" />
+                    </svg>
+                </button>
+            </div>
+        </nav>
+
+        <main>
+            <section id="hero">
+                <div class="container">
+                    <h1 class="t-display hero-headline">
+                        <span>Hi! I'm Adam Coronel.</span>
+                        <span>I build software.</span>
+                    </h1>
+                    <div class="hero-actions">
+                        <a href="#work" class="btn-primary">
+                            View my work
+                            <svg
+                                width="14"
+                                height="14"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                aria-hidden="true"
+                            >
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                                <polyline points="12 5 19 12 12 19" />
+                            </svg>
+                        </a>
+                        <a
+                            href="assets/Adam Coronel Resume 2026.pdf"
+                            download
+                            class="btn-secondary"
+                        >
+                            Download resume
+                            <svg
+                                width="14"
+                                height="14"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"
+                                />
+                                <polyline points="7 10 12 15 17 10" />
+                                <line x1="12" y1="15" x2="12" y2="3" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="work">
+                <div class="container">
+                    <div class="section-header reveal">
+                        <p class="t-section">Work</p>
+                        <h2 class="section-title">Selected projects</h2>
+                        <p class="section-desc">
+                            A mix of professional, academic, and personal work —
+                            each one owned end-to-end.
+                        </p>
+                    </div>
+                    <div
+                        class="projects-list"
+                        id="projects-list"
+                        aria-label="Project list"
+                    >
+                        <!-- Rendered by main.js from data/projects.js -->
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills">
+                <div class="container">
+                    <div class="section-header reveal">
+                        <p class="t-section">Skills</p>
+                        <h2 class="section-title">Technologies &amp; tools</h2>
+                    </div>
+                    <div class="skills-grid reveal">
+                        <div class="skill-group">
+                            <p class="skill-group-label">Languages</p>
+                            <div class="skill-tags">
+                                <span class="skill-tag">C</span>
+                                <span class="skill-tag">C++</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">Rust</span>
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">TypeScript</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">SQL</span>
+                                <span class="skill-tag">Scala</span>
+                                <span class="skill-tag">x86 ASM</span>
+                            </div>
+                        </div>
+                        <div class="skill-group">
+                            <p class="skill-group-label">
+                                Frontend &amp; frameworks
+                            </p>
+                            <div class="skill-tags">
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">Spring Boot</span>
+                            </div>
+                        </div>
+                        <div class="skill-group">
+                            <p class="skill-group-label">Infrastructure</p>
+                            <div class="skill-tags">
+                                <span class="skill-tag">AWS</span>
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">Terraform</span>
+                                <span class="skill-tag">Jenkins</span>
+                                <span class="skill-tag">PostgreSQL</span>
+                                <span class="skill-tag">Linux</span>
+                            </div>
+                        </div>
+                        <div class="skill-group">
+                            <p class="skill-group-label">Game dev</p>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Godot</span>
+                                <span class="skill-tag">GDScript</span>
+                            </div>
+                        </div>
+                        <div class="skill-group">
+                            <p class="skill-group-label">Practices</p>
+                            <div class="skill-tags">
+                                <span class="skill-tag">CI/CD</span>
+                                <span class="skill-tag">IaC</span>
+                                <span class="skill-tag">REST APIs</span>
+                                <span class="skill-tag">gRPC</span>
+                                <span class="skill-tag">Cloud deployment</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about">
+                <div class="container">
+                    <div class="section-header reveal">
+                        <p class="t-section">About</p>
+                        <h2 class="section-title">A bit about me</h2>
+                    </div>
+                    <div class="about-layout reveal">
+                        <img
+                            src="assets/avatar.JPEG"
+                            alt="Adam Coronel"
+                            class="about-avatar"
+                        />
+                        <div class="about-bio">
+                            <p>
+                                I'm a software engineer finishing my MS in
+                                Computer Science at DePaul University. I like
+                                building things end-to-end — from system
+                                architecture to deployment — and I'm drawn to
+                                projects where the technical and creative sides
+                                overlap.
+                            </p>
+                            <p>
+                                When I'm not writing code, I'm making video
+                                games or teaching Taekwondo. I hold a 5th degree
+                                black belt and have been teaching for years.
+                                Both things, oddly, require the same skill:
+                                breaking something complicated into steps small
+                                enough for someone else to learn.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="container">
+                    <div class="section-header reveal">
+                        <p class="t-section">Contact</p>
+                        <h2 class="section-title">Get in touch</h2>
+                        <p class="section-desc">
+                            Whether it's a role, a collaboration, or just a
+                            question — reach out directly or check out my
+                            socials.
+                        </p>
+                    </div>
+                    <div class="contact-layout reveal">
+                        <div>
+                            <div class="contact-email-row">
+                                <svg
+                                    width="16"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="1.8"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    aria-hidden="true"
+                                >
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                                    />
+                                    <polyline points="22,6 12,13 2,6" />
+                                </svg>
+                                <a
+                                    href="mailto:adamcoronel@me.com"
+                                    class="contact-email-link"
+                                    >adamcoronel@me.com</a
+                                >
+                            </div>
+                            <p class="t-small">
+                                I typically respond within a day or two.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-inner">
+                <p class="footer-copy">
+                    &copy; 2026 Adam Coronel &nbsp;&middot;&nbsp;
+                    <a
+                        href="https://github.com/adamcoronel/adamcoronel.github.io"
+                        target="_blank"
+                        rel="noopener"
+                        >View source</a
+                    >
+                </p>
+                <ul class="footer-links" role="list">
+                    <li>
+                        <a
+                            href="https://github.com/adamcoronel"
+                            target="_blank"
+                            rel="noopener"
+                            aria-label="GitHub profile"
+                        >
+                            GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.linkedin.com/in/adamcoronel"
+                            target="_blank"
+                            rel="noopener"
+                            aria-label="LinkedIn profile"
+                        >
+                            LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <script src="data/projects.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
